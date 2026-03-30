@@ -12,7 +12,12 @@ function addMessage(text, sender) {
   chatBox.appendChild(div);
   chatBox.scrollTop = chatBox.scrollHeight;
 }
-
+// Press Enter to send
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    sendBtn.click();
+  }
+});
 sendBtn.onclick = async () => {
   const userText = input.value.trim();
   if (!userText) return;
