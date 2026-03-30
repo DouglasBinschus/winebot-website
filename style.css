@@ -48,3 +48,26 @@ button {
   margin-left: 5px;
   cursor: pointer;
 }
+.help-box {
+  background: #f9f7ff;
+  border: 1px solid #e6ddff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.help-box .factors {
+  margin: 6px 0 12px;
+  color: #333;
+}
+
+.help-box ul {
+  margin: 6px 0 8px 18px;
+}
+
+.help-box .small-note {
+  margin: 8px 0 0;
+  color: #555;
+  font-size: 0.9rem;
+}
